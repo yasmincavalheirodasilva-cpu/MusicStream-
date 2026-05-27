@@ -6,4 +6,7 @@ public class Musica {
         this.titulo = titulo;
         this.artista = artista;
     }
+     public void tocar() {
+        System.out.println("Tocando: " + titulo + " - " + artista);
+     }      
 }
